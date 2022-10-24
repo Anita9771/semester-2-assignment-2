@@ -1,0 +1,24 @@
+.blog-body{
+    color: whitesmoke;
+    background-color: rgba(50, 50, 50, 0.6);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 40%;
+    padding: 6rem 5rem;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 1rem;
+}
+
+.blog-body h4{
+    color: whitesmoke;
+    /* padding: 0.2rem; */
+    line-height: 32px;
+    text-align: center;
+}
+
+.blog p{
+    padding: 0.2rem;
+    line-height: 32px;
+}

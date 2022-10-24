@@ -1,0 +1,17 @@
+body{
+  background: url('./assets/images/react-wallpaper1.png') no-repeat center center fixed; 
+  background-size: cover;
+  /* filter: brightness(40%); */
+  background-color: #7d7c7c;
+  background-blend-mode: multiply;
+  
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  } */
+

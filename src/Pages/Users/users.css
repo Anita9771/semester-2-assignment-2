@@ -1,0 +1,72 @@
+.users{
+    display: flex;
+    flex-direction: column;
+}
+
+.pagination{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid white; */
+    /* overflow: hidden; */
+}
+
+.user{
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 4rem 10rem;
+}
+
+.user-img{
+    border-radius: .2rem;
+    width: 10rem;
+    height: 10rem;
+    /* border: 2px solid green; */
+}
+
+.user p{
+    font-size: 1.2rem;
+    color: rgb(255, 210, 180);
+}
+
+.user-name{
+    font-weight: bold;
+}
+
+.users .loader{
+    margin-top: 10%;
+}
+
+.pagination-text{
+    color: white;
+}
+
+.pagination-down{
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.pagination-down button{
+    background-color: rgb(73, 202, 249);
+    border: 1px solid rgb(73, 202, 249);
+    margin: 0 .2rem;
+}
+
+.pagination-down button:hover, .pagination-down button:focus{
+    background-color: white;
+    border: 1px solid rgb(73, 202, 249);
+    cursor: pointer; 
+}
+
+.pagination-down button:disabled{
+    background-color: grey;
+    cursor: not-allowed;
+    border: none;
+    border: 1px solid rgb(73, 202, 249);
+}
+
+.pagination-down p{
+    text-decoration: underline;
+}
